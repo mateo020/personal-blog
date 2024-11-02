@@ -5,18 +5,12 @@ import {
   SiCss3,
   SiJavascript,
   SiTypescript,
-  SiNextdotjs,
-  SiNodedotjs,
   SiPostgresql,
-  SiTailwindcss,
-  SiRedux,
-  SiFirebase,
+  SiNextdotjs,
   SiGit,
-  SiPhp,
-  SiVuedotjs,
-  SiLaravel,
-  SiNginx,
   SiMysql,
+  SiPython,
+  SiTensorflow,
 } from 'react-icons/si'
 
 import { motion } from 'framer-motion'
@@ -24,22 +18,8 @@ import { showHoverAnimation, removeHoverAnimation } from '../lib/windowAnimation
 import { FadeContainer, popUp } from '../lib/FramerMotionVariants'
 
 const skills = [
-  {
-    name: 'PHP',
-    logo: SiPhp,
-  },
-  {
-    name: 'Vue',
-    logo: SiVuedotjs,
-  },
-  {
-    name: 'Laravel',
-    logo: SiLaravel,
-  },
-  {
-    name: 'Nginx',
-    logo: SiNginx,
-  },
+ 
+
   {
     name: 'mySQL',
     logo: SiMysql,
@@ -65,21 +45,21 @@ const skills = [
     logo: SiReact,
   },
   {
-    name: 'Tailwind CSS',
-    logo: SiTailwindcss,
+    name: 'Python',
+    logo: SiPython,
   },
   {
     name: 'Nextjs',
     logo: SiNextdotjs,
   },
-  // {
-  //   name: 'Node.js',
-  //   logo: SiNodedotjs,
-  // },
-  // {
-  //   name: 'PostgreSQL',
-  //   logo: SiPostgresql,
-  // },
+  {
+    name: 'Tensorflow',
+    logo: SiTensorflow,
+  },
+  {
+    name: 'PostgreSQL',
+    logo: SiPostgresql,
+  },
   // {
   //   name: 'Redux',
   //   logo: SiRedux,
@@ -89,10 +69,10 @@ const skills = [
   //   name: 'Firebase',
   //   logo: SiFirebase,
   // },
-  // {
-  //   name: 'Git',
-  //   logo: SiGit,
-  // },
+  {
+    name: 'Git',
+    logo: SiGit,
+  },
 ]
 
 const Skills = () => {

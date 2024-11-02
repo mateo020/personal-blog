@@ -39,17 +39,13 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Hi, I'm Curtis
+        Hi, I'm Mateo
       </h1>
       <p className="mt-6 mb-4 text-base text-gray-600 dark:text-gray-400">
-        As a passionate web developer based in Vancouver, BC, I am currently contributing to the
-        dynamic tech team at 14 Oranges. My journey into web development was sparked by my time at
-        Apple, where I served as an Associate Manager. During my tenure, I led product launches,
-        conducted training, and managed a team of over 100 employees. My drive comes from a love for
-        continuous learning, tackling new challenges, and collaborating with talented teams. I'm
-        always eager to expand my knowledge and grow within the tech industry.
+      Hello! My name is Mateo, and I’m in my final year at the University of Toronto, currently immersed in a co-op term as a Finance Data Analytics Intern. I have a strong passion for data science, especially exploring its applications in finance.
+      I'm an  sports enthusiast  (ocassinal gambler) and dabble in photogaphy.
       </p>
-      <Button href="/static/Curtis_Warcup_Resume.pdf">Download My Resume</Button>
+      {/* <Button href="/static/Curtis_Warcup_Resume.pdf">Download My Resume</Button> */}
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://github.com/Cwarcup"

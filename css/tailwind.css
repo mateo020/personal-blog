@@ -6,6 +6,61 @@ html {
   scroll-behavior: smooth;
 }
 
+.images-collection-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 30vw;
+  list-style: none;
+  grid-gap: 10px;
+  margin-top: 20px;
+}
+
+figure, img {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  object-fit: cover;
+}
+
+.item {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 50;
+}
+
+.modal .image-container {
+  position: relative;
+  max-width: 768px;
+  width: 100%;
+  padding: 2rem; /* 32px padding */
+  background: white;
+  border-radius: 0.5rem; /* 8px rounded corners */
+}
+
+.modal .close-button {
+  position: absolute;
+  top: 0.5rem; /* 8px from top */
+  right: 0.5rem; /* 8px from right */
+  font-size: 2rem; /* 32px font size */
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
 .task-list-item::before {
   @apply hidden;
 }
